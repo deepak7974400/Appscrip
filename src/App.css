@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  
+}
+.weblogo{
+  padding-left:10px ;
+}
+
+.icone a {
+  font-size: 18px;
+  color: #000;
+
+}
+
+.nav {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-right: 34%;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link {
+  margin-left: 10px;
+}
+.dis{
+  font-family: monospace;
+  margin-top: 20px;
+  font-size: 60px;
+}
+.paragraph1{
+  text-align: justify;
+}
+.hr{
+  margin:10px 70px 0px 70px;
+
+}
+.item{
+  padding-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+.item h2{
+   font-size: 23px;
+   padding-right: 20px;
+   padding-top: 9px;
+}
+.item select{
+  border: none;
+}
+.RECOMMEMDED{
+  float: right;
+  margin-left: auto;
+  padding-right: 70px;
+  padding-top: 9px;
+}
+.image img{
+  width: 100%;
+}
+.sign{
+  color: black;
+  font-size: 15px;
+
+}
+.card h6{
+  font-family: Simplon Norm;
+  font-weight: bold;
+
+}
+footer{
+  background: #000;
+ 
+}
+.title{
+  color: #f1f1f1;
+  font-family: Simplon Norm;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.footer-p{
+  text-align: justify;
+  font-size: 15px;
+  padding-top: 10px;
+  line-height: 5px;
+}
+.d-flex{
+  padding-top: 30px;
+}
+.head{
+  color: #f1f1f1;
+}
+.head img{
+  border-radius: 50px;
+}
+.para{
+  font-size: 10px;
+  padding-top:5px ;
+}
+.fa-brands{
+  color: white;
+}
+.metta{
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width:992px) {
+  select {
+      display: none;
+  }
+}
